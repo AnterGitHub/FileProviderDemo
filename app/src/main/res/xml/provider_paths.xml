@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+
+    <external-path
+        name="my_files"
+        path="shared_files" />
+
+    <!-- 这个对应 -->
+    <!-- `Environment.getExternalStorageDirectory().absolutePath + File.separator + "shared_files"` -->
+    <!-- 然后这个my_files对应 -->
+    <!--content://com.konka.fileproviderdemo/my_files/file_provider_test.jpg-->
+</paths>
